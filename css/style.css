@@ -1,0 +1,602 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #1e212c;
+}
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 1.3;
+  text-align: center;
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.button {
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  border-radius: 4px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+}
+.button:hover {
+  background: none;
+  border: 1px solid #ff3f3a;
+  color: #f75e05;
+}
+/*????????__ При ховері на кнопки, контент стрибає__?????????? */
+
+/* Header Start */
+
+.header {
+  padding: 20px 0 20px 0;
+}
+.header-block__container {
+}
+.logo {
+  display: inline-block;
+}
+.header-nav-list {
+  display: inline-block;
+  margin-left: 60px;
+}
+.nav-list-item {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #424551;
+}
+.nav-list-item:not(:last-child) {
+  margin-right: 40px;
+}
+.nav-list-item:hover {
+  color: #ff3f3a;
+}
+.header-button {
+  display: inline-block;
+  width: 260px;
+  height: 52px;
+  margin-left: 125px;
+}
+.login {
+  display: inline-block;
+  margin-left: 20px;
+}
+.login-text {
+  font-weight: 700;
+  line-height: 1.6;
+  color: #424551;
+  background: url("../img/header/person.svg") 0 5px no-repeat;
+  padding-left: 22px;
+}
+
+/* Header End */
+
+/* Page_About_Start */
+
+.page-about {
+  padding: 40px 0 40px 0;
+}
+.about__container {
+}
+.page-about-subtitle {
+}
+.page-about-title {
+  margin-bottom: 48px;
+}
+.page-about-image {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.about-img {
+}
+.page-about-image::before {
+  content: "Iam CONTENT img";
+  color: red;
+  font-size: 24px;
+}
+.page-about-image::after {
+  content: "...or DECOR";
+  color: green;
+  font-size: 24px;
+}
+.about-text {
+}
+.about-text p:first-child {
+  width: 600px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+.about-text p:last-child {
+  width: 600px;
+  line-height: 1.6;
+  color: #424551;
+  margin-bottom: 60px;
+}
+.about-button-events {
+  width: 192px;
+  height: 52px;
+  margin-right: 24px;
+}
+.about-button-courses {
+  width: 199px;
+}
+
+/* Page_About_End */
+/* Page_Achievement_Start */
+
+.page-achievement {
+  padding: 40px 0 40px 0;
+}
+.page-achievment-button {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  background-color: #ff3f3a;
+  border-radius: 50%;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+/* ???Кнопка "play" в svg форматі, але я не знаю як вирівняти текст кнопки по її центру?? */
+
+.page-achievment-button svg {
+  margin: 19px 0 0 22px;
+}
+.page-achievment-button-text {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  margin-left: 16px;
+}
+.page-achievement-img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.page-achievement-img::before {
+  content: "(I am DECOR)";
+  color: green;
+  font-size: 20px;
+  background: url("../img/main/group.svg") 0 0 no-repeat;
+  width: 136px;
+  height: 100px;
+  display: inline-block;
+}
+.page-achievement-img::after {
+  content: "(Iam CONTEN img)";
+  color: red;
+  font-size: 24px;
+}
+.achievement-list {
+}
+.achievement-list:not(:last-child) {
+  margin-bottom: 20px;
+}
+.achievement-list-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.achievement-list-item:first-child::before {
+  content: "1200";
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: #ff3f3a;
+  margin-right: 16px;
+}
+.achievement-list-item:nth-child(2)::before {
+  content: "84";
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: #ff3f3a;
+  margin-right: 16px;
+}
+.achievement-list-item:nth-child(3)::before {
+  content: "16";
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: #ff3f3a;
+  margin-right: 16px;
+}
+.achievement-list-item:last-child::before {
+  content: "5";
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: #ff3f3a;
+  margin-right: 16px;
+}
+
+/*?????? Зовсім не впевненний що доречно використав псевдоелемент, адже не розумію як вирівняти текст відносно цифр, як в макеті ?????? */
+
+/* Page_Achievement_End */
+/* Page_Values_Start */
+
+.page-values {
+  padding: 40px 0 40px 0;
+}
+.page-values__container {
+}
+.values-subtitle {
+}
+.values-title {
+  margin-bottom: 60px;
+}
+.values-icon-boxes {
+}
+.first-box {
+  display: inline-block;
+  width: 240px;
+  min-height: 162px;
+}
+.first-box-icon {
+  margin-bottom: 24px;
+  text-align: center;
+}
+.box-icon::after {
+  content: "(Iam an ICON)";
+  color: blue;
+  font-size: 10px;
+}
+.first-box-title {
+}
+.box-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.first-box-text {
+}
+.box-text {
+  line-height: 1.6;
+  color: #787a80;
+  text-align: center;
+}
+.second-box {
+  display: inline-block;
+  width: 240px;
+  min-height: 162px;
+  margin-left: 90px;
+}
+.second-box-icon {
+  margin-bottom: 24px;
+  text-align: center;
+}
+.second-box-title {
+}
+.second-box-text {
+}
+.third-box {
+  display: inline-block;
+  width: 240px;
+  min-height: 162px;
+  margin-left: 90px;
+}
+.third-box-icon {
+  margin-bottom: 24px;
+  text-align: center;
+}
+.third-box-title {
+}
+.thihrd-box-text {
+}
+.fourth-box {
+  display: inline-block;
+  width: 240px;
+  min-height: 162px;
+  margin-left: 80px;
+}
+.fourth-box-icon {
+  margin-bottom: 24px;
+  text-align: center;
+}
+.fourth-box-title {
+}
+.fourth-box-text {
+}
+
+/* ???Між блоками є елемент декору, намагався реалізувати його псевдоелементом after, виходить біда ???*/
+
+/* Page_Values_End */
+/* Page Directions Start */
+
+.page-directions {
+  padding: 40px 0 40px 0;
+}
+.page-directions__container {
+}
+.directions_subtitle {
+}
+
+.directions-title {
+  margin-bottom: 60px;
+}
+.title {
+}
+.directions-csrds {
+  margin: 0 auto;
+}
+.marketing-directions-card {
+  width: 390px;
+  min-height: 420px;
+  border: 1px solid #e5e8ed;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.marketing-card-content {
+  padding: 0 24px 24px 24px;
+}
+
+.marketing-directions-card::before {
+  content: "Iam CONTENT img";
+  color: red;
+  font-size: 24px;
+  padding: 160px 0 0 10px;
+  background: url("../img/main/directions/marketing.webp") 0 0 no-repeat;
+  width: 390px;
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.marketing-card-badge {
+  width: 90px;
+  height: 28px;
+  background: #03cea4;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #ffffff;
+  text-align: center;
+}
+.marketing-card-text {
+}
+.card-text {
+  width: 342px;
+  line-height: 1.6;
+  color: #787a80;
+  margin-bottom: 20px;
+}
+.marketing-card-link {
+}
+.card-link {
+  font-weight: 700;
+  line-height: 1.6;
+}
+.card-link:hover {
+  color: #ff3f3a;
+}
+.card-link::after {
+  content: url("../img/main/directions/line.svg");
+  margin-left: 11px;
+}
+.marketing-directions-card {
+  width: 390px;
+  min-height: 420px;
+  border: 1px solid #e5e8ed;
+  border-radius: 4px;
+  display: inline-block;
+}
+.marketing-card-content {
+  padding: 0 24px 24px 24px;
+}
+
+/* management */
+
+.management-directions-card {
+  width: 390px;
+  min-height: 420px;
+  border: 1px solid #e5e8ed;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0 0 30px 25px;
+}
+.management-card-content {
+  padding: 0 24px 24px 24px;
+}
+
+.management-directions-card::before {
+  content: "Iam CONTENT img";
+  color: red;
+  font-size: 24px;
+  padding: 10px 0 0 10px;
+  background: url("../img/main/directions/management.webp") 0 0 no-repeat;
+  width: 390px;
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+.management-card-badge {
+  width: 110px;
+  height: 28px;
+  background: #5a87fc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #ffffff;
+  text-align: center;
+}
+.management-card-text {
+}
+
+.management-card-link {
+}
+
+/* HR & Recruting */
+
+.hr-directions-card {
+  width: 390px;
+  min-height: 420px;
+  border: 1px solid #e5e8ed;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0 0 30px 25px;
+}
+.hr-card-content {
+  padding: 0 24px 24px 24px;
+}
+
+.hr-directions-card::before {
+  content: "Iam CONTENT img";
+  color: red;
+  font-size: 24px;
+  padding: 10px 0 0 10px;
+  background: url("../img/main/directions/hr.webp") 0 0 no-repeat;
+  width: 390px;
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+.hr-card-badge {
+  width: 127px;
+  height: 28px;
+  background: #f89828;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #ffffff;
+  text-align: center;
+}
+.hr-card-text {
+}
+
+.hr-card-link {
+}
+
+/* Design */
+
+.design-directions-card {
+  width: 390px;
+  min-height: 420px;
+  border: 1px solid #e5e8ed;
+  border-radius: 4px;
+  display: inline-block;
+}
+.design-card-content {
+  padding: 0 24px 24px 24px;
+}
+
+.design-directions-card::before {
+  content: "Iam CONTENT img";
+  color: red;
+  font-size: 24px;
+  padding: 10px 0 0 170px;
+  background: url("../img/main/directions/design.webp") 0 0 no-repeat;
+  width: 390px;
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+.design-card-badge {
+  width: 66px;
+  height: 28px;
+  background: #f52f6e;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #ffffff;
+  text-align: center;
+}
+.design-card-text {
+}
+
+.design-card-link {
+}
+
+/* Development */
+
+.development-directions-card {
+  width: 390px;
+  min-height: 420px;
+  border: 1px solid #e5e8ed;
+  border-radius: 4px;
+  display: inline-block;
+  margin-left: 25px;
+}
+.development-card-content {
+  padding: 0 24px 24px 24px;
+}
+
+.development-directions-card::before {
+  content: "Iam CONTENT img";
+  color: red;
+  font-size: 24px;
+  padding: 10px 0 0 170px;
+  background: url("../img/main/directions/development.webp") 0 0 no-repeat;
+  width: 390px;
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+.development-card-badge {
+  width: 113px;
+  height: 28px;
+  background: #7772f1;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #ffffff;
+  text-align: center;
+}
+.development-card-text {
+}
+
+.development-card-link {
+}
+
+/* New-Program */
+
+.new-program-card {
+  width: 390px;
+  min-height: 420px;
+  background: #f4f5f7;
+  border-radius: 4px;
+  display: inline-block;
+  margin-left: 25px;
+  padding: 164px 74px 196px 74px;
+}
+.new-program-text {
+  width: 242px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #424551;
+}
+
+/*???????? І тут я зламався( Маю відчуття що останній блок поводить себе так через свій контент(або падінги), але не можу зрозуміти як це зафіксити. Добавляючи в нього кучу "риби" блок росте в висоту(хоча у нього указана мінімальна висота), виштовхуючи попередні вниз. Отже I NEED HELP. Допоможіть розібратися. Дякую! */
+/*???? Ще в мене не виходить з відповідністью мардженів з макетом. Якщо, наприклад в хедері задати між контентом марджени по макету - контент не поміщається в контейнер. ??? */
+/* Отже, або я погано розбираю пройдений матеріал, або я лізу поперед батька в пекло) В любому випадку потрібна ваша допомога. Дякую! */
